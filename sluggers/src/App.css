@@ -1,0 +1,44 @@
+
+main {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+table { 
+  width: 90%; 
+  
+  text-align: center; 
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+.graph-container {
+  width: 45%;
+  text-align: center;
+}
+.graph-container iframe {
+  width: 100%;
+  height: 50vh;
+}
+@media (max-width: 800px) {
+  .graph-container {
+      width: 90%;
+  }
+}
+header {
+  text-align: center;
+}
+
+.buttons{
+  text-align: center; margin-top: 20px;
+}
+
+
+
+
